@@ -1,0 +1,11 @@
+{
+    "name": "harryrhodes-message-database",
+    "domain": false,
+    "hostname": "harryrhodes-message-database",
+    "image": "postgres:12",
+    "env": {
+    "POSTGRES_PASSWORD": "@harryrhodes-postgres-password"
+    },
+
+    "volumes": ["harryrhodes_message_database_volume:/var/lib/postgresql/data"]
+}
